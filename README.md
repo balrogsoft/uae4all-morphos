@@ -1,2 +1,30 @@
 # uae4all-morphos
 UAE4All MorphOS port, fixed to run on big endian machines.
+
+
+UAE4ALL release candidate 3 by Chui
+MorphOS port v0.32 by Pedro Gil Guirado (Balrog Software)
+
+Changes in this version:
+
+Sound sync problem fixed.
+Added vertical screen position in MUI gui.
+MUI gui is opened before initialize emulation.
+Bug fixed while loading adf disks outside program directory.
+Added a message requester when kick.rom file isn't found.
+Added english and spanish locale catalogs.
+Fixed several problems in MUI gui.
+
+
+Instructions
+
+You need a kickstart file to get working the emulator with
+the name "kick.rom".
+
+Use F11 to open gui during emulation.
+Use F12 to enable/disable emulation status bar.
+Use PageUp for SuperThrottle mode.
+
+Please send any bug or suggestion to:
+
+balrogsoft at gmail.com
